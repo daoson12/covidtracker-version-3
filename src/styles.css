@@ -1,1 +1,161 @@
-/* You can add global styles to this file, and also import other style files */
+    /* You can add global styles to this file, and also import other style files */
+    
+    #header {
+        background: url('assets/images/background.jpg') center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        color: purple;
+        display: flex;
+        align-items: center;
+    }
+    
+    #header p {
+        font-size: 18px;
+        font-weight: 300px;
+        /* color: rgb(255, 0, 0); */
+    }
+    
+    #header .h1-title {
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    #statistic {
+        padding: 5rem 0;
+    }
+    
+    #statistic .card-text {
+        font-weight: bold;
+        font-size: 50px;
+        color: tomato;
+    }
+    
+    #statistic .card-infected {
+        border-bottom-color: blue;
+        border-bottom-width: 10px;
+    }
+    
+    #statistic .card-recovered {
+        border-bottom-color: lightgreen;
+        border-bottom-width: 10px;
+    }
+    
+    #statistic .card-deaths {
+        border-bottom-color: lightsalmon;
+        border-bottom-width: 10px;
+    }
+    /*--------------------------------------------------------------
+    # Frequently Asked Questioins
+    --------------------------------------------------------------*/
+    
+    .faq {
+        padding: 60px 0;
+    }
+    
+    .faq .faq-list {
+        padding: 0;
+        list-style: none;
+    }
+    
+    .faq .faq-list li {
+        padding: 0 0 20px 25px;
+    }
+    
+    .faq .faq-list a {
+        display: block;
+        position: relative;
+        font-family: #3fbbc0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .faq .faq-list i {
+        font-size: 18px;
+        position: absolute;
+        left: -25px;
+        top: 6px;
+    }
+    
+    .faq .faq-list p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .faq .faq-list a.collapse {
+        color: #3fbbc0;
+    }
+    
+    .faq .faq-list a.collapsed {
+        color: #343a40;
+    }
+    
+    .faq .faq-list a.collapsed:hover {
+        color: #3fbbc0;
+    }
+    
+    .faq .faq-list a.collapsed i::before {
+        content: "\eab2" !important;
+    }
+    /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+    
+    section {
+        padding: 60px 0;
+        overflow: hidden;
+    }
+    
+    .section-bg {
+        background-color: #f7fcfc;
+    }
+    
+    .section-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    
+    .section-title h2::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #3fbbc0;
+        bottom: 0;
+        left: calc(50% - 25px);
+    }
+    
+    .section-title p {
+        margin-bottom: 0;
+    }
+    /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+    
+    #footer {
+        background: #eeeeee;
+        padding: 0 0 30px 0;
+        color: #555555;
+        font-size: 14px;
+    }
+    
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    #footer .credits {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 13px;
+    }
